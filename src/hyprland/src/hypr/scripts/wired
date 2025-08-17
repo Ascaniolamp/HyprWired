@@ -1,0 +1,78 @@
+#!/usr/bin/env bash
+
+ASSETS_PATH=~/.config/assets
+QUOTES_PATH=$ASSETS_PATH/quotes.json
+MEDIA_PATH=$ASSETS_PATH/media
+ANIM_PATH=$MEDIA_PATH/anim
+ANIM_ICONS_PATH=$ANIM_PATH/icons
+IMGS_PATH=$MEDIA_PATH/imgs
+
+QUOTES_NUM=$(jq length $QUOTES_PATH)
+RANDQUOTE_NUM=$((0 + $RANDOM % $QUOTES_NUM))
+RANDQUOTE=$(jq ".[$RANDQUOTE_NUM]" $QUOTES_PATH)
+# RANDQUOTE="${RANDQUOTE//\"}"
+
+TOTAL_CASES=10
+CASE=$1
+if [ -z "$CASE" ]; then
+	CASE=$((1 + $RANDOM % $TOTAL_CASES))
+fi
+
+case $CASE in
+	0)
+		if [ $((1 + $RANDOM % 2)) = 1 ]; then
+			GRAYSCALE="-g"
+		fi
+
+		if [ $((1 + $RANDOM % 2)) = 1 ]; then
+			WIRED_CHARSET="-cWIRED"
+		fi
+
+		RANDMEDIA_FILENAME=$(ls $RANDMEDIA_DIRPATH|sort -R |tail -1)
+		RANDMEDIA="$RANDMEDIA_DIRPATH/$RANDMEDIA_FILENAME"
+
+		tplay $GRAYSCALE $WIRED_CHARSET /dev/video0;
+	;;
+	1)
+		COMMAND="neofetch --source ~/.config/neofetch/logo;read";
+	;;
+	3)
+		rofi -e "$RANDQUOTE";
+	;;
+	4)
+		COMMAND="cmatrix -brk -M$RANDQUOTE";
+	;;
+	5)
+		COMMAND="cbonsai -lt0.005 -iw2 -cwired -k0,1,2,12 -M10 -L64 -m$RANDQUOTE";
+	;;
+	*)
+		if [ $((1 + $RANDOM % 2)) = 1 ]; then
+			GRAYSCALE="-g"
+		fi
+
+		if [ $((1 + $RANDOM % 2)) = 1 ]; then
+			WIRED_CHARSET="-cWIRED"
+		fi
+
+		case $((1 + $RANDOM % 3)) in
+			1)
+				RANDMEDIA_DIRPATH=$ANIM_PATH
+			;;
+			2)
+				RANDMEDIA_DIRPATH=$ANIM_ICONS_PATH
+			;;
+			3)
+				RANDMEDIA_DIRPATH=$IMGS_PATH
+			;;
+		esac
+
+		RANDMEDIA_FILENAME=$(ls $RANDMEDIA_DIRPATH|sort -R |tail -1)
+		RANDMEDIA="$RANDMEDIA_DIRPATH/$RANDMEDIA_FILENAME"
+
+		COMMAND="tplay -l $GRAYSCALE $WIRED_CHARSET $RANDMEDIA";
+	;;
+esac
+
+if ! [ -z "$COMMAND" ]; then
+	kitty -e zsh -c "$COMMAND"
+fi

@@ -1,0 +1,222 @@
+/******************************************************************************
+ * ROFI Color theme
+ * User: Ascaniolamp
+ ******************************************************************************/
+
+* {
+	backprimary:	#000000;
+	backsecondary:	#1A1A1A;
+	backtertiary:	#2A2A2A;
+	backquaternary:	#3A3A3A;
+	backquinary:	#4A4A4A;
+	backsenary:		#5A5A5A;
+	backseptenary:	#6A6A6A;
+	backoctonary:	#7A7A7A;
+	backnonary:		#8A8A8A;
+	backdecenary:	#9A9A9A;
+	backundenary:	#AAAAAA;
+	backduodenary:	#BABABA;
+
+	foreprimary:	#CE7688;
+	foresecondary:	#BA6A7B;
+	foretertiary:	#A05969;
+	forequaternary:	#965363;
+	forequinary:	#8E4E5D;
+	foresenary:		#804654;
+	foreseptenary:	#6F3D49;
+	foreoctonary:	#5D333C;
+	forenonary:		#49272F;
+	foredecenary:	#381E24;
+	foreundenary:	#2A171B;
+	foreduodenary:	#1D0F12;
+
+	highprimary:	#C1B48E;
+	highsecondary:	#B5A985;
+	hightertiary:	#A49978;
+	highquaternary:	#968C6E;
+	highquinary:	#897F63;
+	highsenary:		#7A7158;
+	highseptenary:	#69614C;
+	highoctonary:	#5A5341;
+	highnonary:		#4E4838;
+	highdecenary:	#403C2E;
+	highundenary:	#332F24;
+	highduodenary:	#221F18;
+
+	background:                  @backprimary;
+	background-color:            @background;
+	lightbg:                     @backsecondary;
+
+	normal-background:           @background;
+	selected-normal-background:  @lightbg;
+	alternate-normal-background: @normal-background;
+
+	active-background:           @lightbg;
+	selected-active-background:  @backquaternary;
+	alternate-active-background: @active-background;
+
+	urgent-background:           @backtertiary;
+	selected-urgent-background:  @backquaternary;
+	alternate-urgent-background: @urgent-background;
+
+//
+
+	foreground:                  @forequaternary;
+	lightfg:                     @foretertiary;
+
+	normal-foreground:           @foreground;
+	selected-normal-foreground:  @lightfg;
+	alternate-normal-foreground: @normal-foreground;
+
+	active-foreground:           @lightfg;
+	selected-active-foreground:  @foresecondary;
+	alternate-active-foreground: @active-foreground;
+
+	urgent-foreground:           @foresecondary;
+	selected-urgent-foreground:  @foreprimary;
+	alternate-urgent-foreground: @urgent-foreground;
+
+//
+
+	border-color:                @foreground;
+	bordercolor:                 @foreground;
+	separatorcolor:              @foreground;
+	red:                         @highquaternary;
+	blue:                        @highoctenary;
+
+	spacing:                     0;
+}
+
+window {
+	background-color: @background;
+	border:           2;
+	padding:          0;
+}
+
+mainbox {
+	border:  0;
+	padding: 0;
+}
+
+message {
+	border:       0px dash 0px 0px ;
+	border-color: @separatorcolor;
+	padding:      0px ;
+}
+
+textbox {
+	text-color: @foreground;
+}
+
+listview {
+	fixed-height: 0;
+	border:       0px dash 0px 0px ;
+	border-color: @separatorcolor;
+	spacing:      0px ;
+	scrollbar:    true;
+	padding:      0px 0px 0px ;
+}
+
+element {
+	border:  0;
+	padding: 1px ;
+}
+
+element-text {
+	background-color: inherit;
+	text-color:       inherit;
+}
+
+element.normal.normal {
+	background-color: @normal-background;
+	text-color:       @normal-foreground;
+}
+
+element.normal.urgent {
+	background-color: @urgent-background;
+	text-color:       @urgent-foreground;
+}
+
+element.normal.active {
+	background-color: @active-background;
+	text-color:       @active-foreground;
+}
+
+element.selected.normal {
+	background-color: @selected-normal-background;
+	text-color:       @selected-normal-foreground;
+}
+
+element.selected.urgent {
+	background-color: @selected-urgent-background;
+	text-color:       @selected-urgent-foreground;
+}
+
+element.selected.active {
+	background-color: @selected-active-background;
+	text-color:       @selected-active-foreground;
+}
+
+element.alternate.normal {
+	background-color: @alternate-normal-background;
+	text-color:       @alternate-normal-foreground;
+}
+
+element.alternate.urgent {
+	background-color: @alternate-urgent-background;
+	text-color:       @alternate-urgent-foreground;
+}
+
+element.alternate.active {
+	background-color: @alternate-active-background;
+	text-color:       @alternate-active-foreground;
+}
+
+scrollbar {
+	width:        4px ;
+	handle-width: 8px ;
+	padding:      0;
+	border:       0;
+}
+
+mode-switcher {
+	border:       0px solid 0px 0px ;
+	border-color: @separatorcolor;
+}
+
+button.selected {
+	background-color: @selected-normal-background;
+	text-color:       @selected-normal-foreground;
+}
+
+inputbar {
+	spacing:    0;
+	text-color: @normal-foreground;
+	padding:    0px;
+}
+
+case-indicator {
+	spacing:    0;
+	text-color: @normal-foreground;
+}
+
+entry {
+	spacing:    0;
+	text-color: @normal-foreground;
+}
+
+prompt {
+	spacing:    0;
+	text-color: @normal-foreground;
+}
+
+inputbar {
+	children:   [ prompt,textbox-prompt-colon,entry,case-indicator ];
+}
+
+textbox-prompt-colon {
+	expand:     false;
+	str:        ":";
+	margin:     0px 0em 0em 0em ;
+	text-color: @normal-foreground;
+}

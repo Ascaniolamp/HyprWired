@@ -1,0 +1,11 @@
+#!/bin/env bash
+source ../helper.sh
+GITSRC=$(dirname "$0")/src
+
+downdependencies "$GITSRC/pacpkgs.lst" "$GITSRC/aurpkgs.lst"
+
+substitute "$BAKORDEL" "/etc/sddm.conf" "$GITSRC/sddm.conf"
+substitute "$BAKORDEL" "/usr/share/sddm/themes/HyprWired" "$GITSRC/HyprWired"
+
+echo "SDDM HyprWired theme installed succesfully. Test with the following command:"
+echo "sddm-greeter --test-mode --theme /usr/share/sddm/themes/HyprWired"

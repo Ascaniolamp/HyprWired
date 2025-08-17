@@ -1,0 +1,80 @@
+@import "../assets/palette/palette.css";
+
+* {
+	font-family: "AdwaitaMono Nerd Font";
+	font-size: 16px;
+	font-weight: bold;
+	color: @highprimary;
+}
+
+window#waybar {
+	background-color: @backprimary;
+	border: solid @foreprimary;
+	border-width: 0px 2px 2px 2px;
+	transition-property: background-color;
+	transition-duration: 0.5s;
+}
+
+button,
+button:hover,
+#workspaces #workspaces button,
+#workspaces button:hover {
+	color: @highprimary;
+	padding: 0px 2px 0px 2px;
+	margin: 0px;
+	border: none;
+	background: inherit;
+	background-color: transparent;
+	box-shadow: inset 0px 0px 0px 0px @foreprimary;
+}
+
+tooltip,
+tooltip *,
+#tray menu {
+	color: @highprimary;
+	background-color: @backprimary;
+	text-shadow: none;
+}
+
+#mode,
+#battery,
+#cpu,
+#memory,
+#disk,
+#backlight,
+#network,
+#wireplumber,
+#custom-media,
+#tray,
+#mode,
+#idle_inhibitor,
+#scratchpad,
+#power-profiles-daemon,
+#mpd {
+	padding: 0px 6px 0px 0px;
+}
+
+#temperature {
+	padding: 0px 3px 0px 3px;
+}
+
+#image {
+	padding: 0px 4px 2px 0px;
+}
+
+#pulseaudio {
+	padding: 0px 10px 0px 0px;
+}
+
+#clock {
+	padding: 0px 3px 0px 0px;
+}
+
+#tray > .needs-attention,
+#pulseaudio.muted,
+#temperature.critical,
+#privacy-item.screenshare,
+#privacy-item.audio-out {
+	-gtk-icon-effect: highlight;
+	background-color: @foresecondary;
+}

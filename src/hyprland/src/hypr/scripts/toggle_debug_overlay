@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+OUTPUT=$(hyprctl getoption debug:overlay)
+
+case "$OUTPUT" in
+	*"int: 0"*)
+		hyprctl keyword debug:overlay true
+		;;
+	*"int: 1"*)
+		hyprctl keyword debug:overlay false
+		;;
+esac
+

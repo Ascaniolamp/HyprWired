@@ -1,0 +1,6 @@
+[Text]
+Normal=#d17389
+Current=#8b344d
+NormalBG=#000000
+SelectedBG=#320000
+Font=Terminus

@@ -1,0 +1,12 @@
+[SddmGreeterTheme]
+Name=HyprWired
+Description=A Serial Experiments Lain Wired-inspired sddm theme.
+Author=Ascanio "Lamp" Narcisi, Andrés "mixedCase" Rodríguez, Gagandeep "lll2yu" Singh
+Copyright=(c) 2025, Ascanio Narcisi, (c) 2019, Gagandeep Singh, (c) 2016, Andrés Rodríguez
+License=CC-BY-SA
+Type=sddm-theme
+Version=1.0.0
+Website=https://github.com/Ascaniolamp/HyprWired/sddm, https://github.com/lll2yu/sddm-lain-wired-theme, https://gitlab.com/mixedCase/sddm-lain-wired-theme
+MainScript=Main.qml
+Theme-Id=hypr-wired
+Theme-API=2.0

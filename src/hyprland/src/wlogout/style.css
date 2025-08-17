@@ -1,0 +1,64 @@
+@import "../assets/palette/palette.css";
+
+* {
+	all: unset;
+	font-family: "AdwaitaMono Nerd Font";
+	font-size: 16px;
+	font-weight: bold;
+}
+
+window {
+	background-color: @backprimary;
+}
+
+button {
+	color: @highprimary;
+	background-color: @backprimary;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 50%;
+}
+
+button:focus,
+button:active,
+button:hover {
+	background-color: @backsecondary;
+	border: 2px solid @foreprimary;
+}
+
+#lock {
+	background-image: image(
+		url("../assets/media/anim/icons/laintrain.gif"),
+		url("../assets/media/anim/icons/laintrain.gif")
+	);
+}
+#logout {
+	background-image: image(
+		url("../assets/media/anim/icons/VisLain.gif"),
+		url("../assets/media/anim/icons/VisLain.gif")
+	);
+}
+#suspend {
+	background-image: image(
+		url("../assets/media/anim/icons/SunD.gif"),
+		url("../assets/media/anim/icons/SunD.gif")
+	);
+}
+#hibernate {
+	background-image: image(
+		url("../assets/media/anim/icons/cxc4.gif"),
+		url("../assets/media/anim/icons/cxc4.gif")
+	);
+}
+#shutdown {
+	background-image: image(
+		url("../assets/media/anim/icons/acid.gif"),
+		url("../assets/media/anim/icons/acid.gif")
+	);
+}
+#reboot {
+	background-image: image(
+		url("../assets/media/anim/icons/aether-preview-02.gif"),
+		url("../assets/media/anim/icons/aether-preview-02.gif")
+	);
+}

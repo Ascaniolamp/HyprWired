@@ -1,0 +1,40 @@
+:root {
+	--backprimary: #000000;
+	--backsecondary: #1a1a1a;
+	--backtertiary: #2a2a2a;
+	--backquaternary: #3a3a3a;
+	--backquinary: #4a4a4a;
+	--backsenary: #5a5a5a;
+	--backseptenary: #6a6a6a;
+	--backoctonary: #7a7a7a;
+	--backnonary: #8a8a8a;
+	--backdecenary: #9a9a9a;
+	--backundenary: #aaaaaa;
+	--backduodenary: #bababa;
+
+	--foreprimary: #ce7688;
+	--foresecondary: #ba6a7b;
+	--foretertiary: #a05969;
+	--forequaternary: #965363;
+	--forequinary: #8e4e5d;
+	--foresenary: #804654;
+	--foreseptenary: #6f3d49;
+	--foreoctonary: #5d333c;
+	--forenonary: #49272f;
+	--foredecenary: #381e24;
+	--foreundenary: #2a171b;
+	--foreduodenary: #1d0f12;
+
+	--highprimary: #c1b48e;
+	--highsecondary: #b5a985;
+	--hightertiary: #a49978;
+	--highquaternary: #968c6e;
+	--highquinary: #897f63;
+	--highsenary: #7a7158;
+	--highseptenary: #69614c;
+	--highoctonary: #5a5341;
+	--highnonary: #4e4838;
+	--highdecenary: #403c2e;
+	--highundenary: #332f24;
+	--highduodenary: #221f18;
+}
