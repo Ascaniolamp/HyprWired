@@ -9,10 +9,12 @@ A complete Hyprland configuration for Arch Linux inspired by Serial Experiments 
 <br>
 <br>
 <div>
-	[<img alt="Mail me" src="https://img.shields.io/badge/email%20me-ciao?style=for-the-badge&logo=gmail&logoColor=C1B48E&logoSize=auto&labelColor=000000&color=CE7688">]
-	(mailto:ascaniolamp@gmail.com)
-	[<img alt="License" src="https://img.shields.io/github/license/Ascaniolamp/Hyprlain?style=for-the-badge&logo=gplv3&logoColor=C1B48E&logoSize=auto&labelColor=000000&color=CE7688">]
-	(./LICENSE)
+	<a href="mailto:ascaniolamp@gmail.com" style="text-decoration: none;">
+		<img alt="Mail me" src="https://img.shields.io/badge/email%20me-ciao?style=for-the-badge&logo=gmail&logoColor=C1B48E&logoSize=auto&labelColor=000000&color=CE7688">
+	</a>
+	<a href="./LICENSE" style="text-decoration: none;">
+	<img alt="License" src="https://img.shields.io/github/license/Ascaniolamp/Hyprlain?style=for-the-badge&logo=gplv3&logoColor=C1B48E&logoSize=auto&labelColor=000000&color=CE7688">
+	</a>
 	<img alt="Hyprland" src="https://img.shields.io/badge/hyprland-tested-blue?style=for-the-badge&logo=hyprland&logoColor=C1B48E&logoSize=auto&labelColor=000000&color=CE7688">
 	<img alt="Arch Linux" src="https://img.shields.io/badge/arch-tested-blue?style=for-the-badge&logo=archlinux&logoColor=C1B48E&logoSize=auto&labelColor=000000&color=CE7688">
 </div>
