@@ -4,28 +4,31 @@
 A complete Hyprland configuration for Arch Linux inspired by Serial Experiments Lain.
 
 <sub>
-<br>* Even though the themes and configurations are under the name Hyprlain, most submodules are compatible with non-hyprland installations.
+* Even though the themes and configurations are under the name Hyprlain, most submodules are compatible with non-hyprland installations.
 </sub>
 
-<img alt="Hyprland" src="https://img.shields.io/badge/hyprland-tested-blue?style=for-the-badge&logo=hyprland&logoColor=C1B48E&logoSize=auto&labelColor=000000&color=CE7688">
+<br>
 
-<img alt="Arch Linux" src="https://img.shields.io/badge/arch-tested-blue?style=for-the-badge&logo=archlinux&logoColor=C1B48E&logoSize=auto&labelColor=000000&color=CE7688">
+<div>
+	<img alt="Hyprland" src="https://img.shields.io/badge/hyprland-tested-blue?style=for-the-badge&logo=hyprland&logoColor=C1B48E&logoSize=auto&labelColor=000000&color=CE7688">
+	<img alt="Arch Linux" src="https://img.shields.io/badge/arch-tested-blue?style=for-the-badge&logo=archlinux&logoColor=C1B48E&logoSize=auto&labelColor=000000&color=CE7688">
+	<img alt="License" src="https://img.shields.io/github/license/Ascaniolamp/Hyprlain?style=for-the-badge&logo=gplv3&logoColor=C1B48E&logoSize=auto&labelColor=000000&color=CE7688&link=.%2FLICENSE">
+	<img alt="Mail me" src="https://img.shields.io/badge/email%20me-ciao?style=for-the-badge&logo=gmail&logoColor=C1B48E&logoSize=auto&labelColor=000000&color=CE7688&link=mailto%3Aascaniolamp%40gmail.com">
+</div>
 
-<img alt="License" src="https://img.shields.io/github/license/Ascaniolamp/Hyprlain?style=for-the-badge&logo=gplv3&logoColor=C1B48E&logoSize=auto&labelColor=000000&color=CE7688&link=.%2FLICENSE">
+<br>
 
-<img alt="Mail me" src="https://img.shields.io/badge/email%20me-ciao?style=for-the-badge&logo=gmail&logoColor=C1B48E&logoSize=auto&labelColor=000000&color=CE7688&link=mailto%3Aascaniolamp%40gmail.com">
-
-<img src="./src/hyprland/cmdwired.gif" width="250">
-<img src="./src/hyprland/wlogout.png" width="250">
-<img src="./src/hyprland/background.gif" width="250">
-<img src="./src/gtkqtxdg/qtshowcase.png" width="250">
-<img src="./src/gtkqtxdg/gtkshowcase.png" width="250">
-<img src="./src/sddm/showcase.gif" width="250">
-<img src="./src/dotfiles/firefox.gif" width="250">
-<img src="./src/rofi/showcase.png" width="250">
-<img src="./src/spotify/showcase.png" width="250">
-<img src="./src/vesktop/showcase.png" width="250">
-<img src="./src/dotfiles/audacious.gif" width="250">
+<img src="./src/hyprland/cmdwired.gif" width="300">
+<img src="./src/hyprland/wlogout.png" width="300">
+<img src="./src/hyprland/background.gif" width="300">
+<img src="./src/gtkqtxdg/qtshowcase.png" width="300">
+<img src="./src/gtkqtxdg/gtkshowcase.png" width="300">
+<img src="./src/sddm/showcase.gif" width="300">
+<img src="./src/dotfiles/firefox.gif" width="300">
+<img src="./src/rofi/showcase.png" width="300">
+<img src="./src/spotify/showcase.png" width="300">
+<img src="./src/vesktop/showcase.png" width="300">
+<img src="./src/dotfiles/audacious.gif" width="300">
 
 </div>
 
