@@ -19,7 +19,7 @@ $GITSRC/sddm/install.sh $1
 $GITSRC/spotify/install.sh $1
 $GITSRC/vesktop/install.sh $1
 
-echo "HyprWired was succesfully installed!"
+echo "Hyprlain was succesfully installed!"
 ynprompt "Would you like to remove all installation files?"
 if [ $? == 0 ]; then
 	rm -r $(dirname "$0")

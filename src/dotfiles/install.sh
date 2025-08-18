@@ -20,4 +20,4 @@ DOTPROFILE_SHLINE="[[ -f ~/.profile ]] && . ~/.profile"
 echo $DOTPROFILE_SHLINE >> $HOME/.bashrc
 echo $DOTPROFILE_SHLINE >> $HOME/.zshrc
 
-echo "HyprWired dotfiles installed succesfully."
+echo "Hyprlain dotfiles installed succesfully."

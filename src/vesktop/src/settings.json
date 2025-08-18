@@ -5,7 +5,7 @@
 	"themeLinks": [],
 	"eagerPatches": false,
 	"enabledThemes": [
-		"hyprwired.theme.css"
+		"hyprlain.theme.css"
 	],
 	"enableReactDevtools": false,
 	"frameless": false,

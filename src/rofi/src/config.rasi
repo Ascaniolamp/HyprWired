@@ -1,4 +1,4 @@
-@theme "themes/HyprWired.rasi"
+@theme "themes/Hyprlain.rasi"
 
 configuration {
 	show-icons: true;

@@ -5,6 +5,6 @@ GITSRC=$(dirname "$0")/src
 downdependencies "$GITSRC/pacpkgs.lst" "$GITSRC/aurpkgs.lst"
 
 substitute "$BAKORDEL" "$HOME/.config/vesktop/settings/settings.json" "$GITSRC/settings.json"
-substitute "$BAKORDEL" "$HOME/.config/vesktop/themes/hyprwired.theme.css" "$GITSRC/hyprwired.theme.css"
+substitute "$BAKORDEL" "$HOME/.config/vesktop/themes/hyprlain.theme.css" "$GITSRC/hyprlain.theme.css"
 
-echo "Vesktop HyprWired theme installed succesfully."
+echo "Vesktop Hyprlain theme installed succesfully."

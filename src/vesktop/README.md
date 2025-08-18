@@ -1,4 +1,4 @@
-# HyprWired Vesktop Theme
+# Vesktop Theme
 ![](./showcase.png)
 
 ## [‼️🚨⚠️ DISCLAIMER ⚠️🚨‼️](../../README.md)

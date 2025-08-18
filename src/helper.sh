@@ -5,7 +5,8 @@ sudo echo
 BAKORDEL="backup"
 if ! [ $# -eq 0 ] && ! [ -z $1 ]; then
 	if [ "$1" == "--no-preserve" ]; then
-		echo "This option is highly destructive and dangerous to your previous configuration."
+		echo "This option will delete all your previous configurations."
+		echo "It may also risk affecting other associated files."
 		read -p "Are you sure you want to proceed? [y/N]: " yn
 		case $yn in
 			[Yy]*)
@@ -21,9 +22,9 @@ if ! [ $# -eq 0 ] && ! [ -z $1 ]; then
 
 		if [ $RES == 0 ]; then
 			BAKORDEL="delete"
-			echo "YOU ASKED FOR IT!"
+			echo "Proceeding by deletion."
 		elif [ $RES == 1 ]; then
-			echo "THANK GOD!"
+			echo "Aborting."
 			exit 0
 		fi
 	else
@@ -62,8 +63,8 @@ function handleold () {
 			;;
 
 		"b" | "backup")
-			sudo rm -r $DIRFILE.hyprwiredbak || true
-			sudo mv $DIRFILE $DIRFILE.hyprwiredbak || true
+			sudo rm -r $DIRFILE.hyprlainbak || true
+			sudo mv $DIRFILE $DIRFILE.hyprlainbak || true
 			;;
 
 		*)

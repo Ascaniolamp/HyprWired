@@ -20,12 +20,12 @@ substitute "$BAKORDEL" "$HOME/.config/neofetch/logo" "$GITSRC/neofetch/logo"
 
 substitute "$BAKORDEL" "$HOME/.config/kitty/kitty.conf" "$GITSRC/kitty/kitty.conf"
 substitute "$BAKORDEL" "$HOME/.config/kitty/current-theme.conf" "$GITSRC/kitty/current-theme.conf"
-substitute "$BAKORDEL" "$HOME/.config/kitty/themes/hyprwired.conf" "$GITSRC/kitty/themes/hyprwired.conf"
-substitute "$BAKORDEL" "$HOME/.config/kitty/themes/hyprwired.conf-colors" "$GITSRC/kitty/themes/hyprwired-colors.conf"
+substitute "$BAKORDEL" "$HOME/.config/kitty/themes/hyprlain.conf" "$GITSRC/kitty/themes/hyprlain.conf"
+substitute "$BAKORDEL" "$HOME/.config/kitty/themes/hyprlain.conf-colors" "$GITSRC/kitty/themes/hyprlain-colors.conf"
 
 cat $GITSRC/.profile >> $HOME/.profile
 DOTPROFILE_SHLINE="[[ -f ~/.profile ]] && . ~/.profile"
 echo $DOTPROFILE_SHLINE >> $HOME/.bashrc
 echo $DOTPROFILE_SHLINE >> $HOME/.zshrc
 
-echo "Hyprland HyprWired theme installed succesfully."
+echo "Hyprland Hyprlain theme installed succesfully."

@@ -15,11 +15,11 @@ substitute "$BAKORDEL" "$HOME/.config/xdg-desktop-portal/hyprland-portals.conf" 
 substitute "$BAKORDEL" "$HOME/.config/xsettingsd.conf" "$GITSRC/xsettingsd.conf"
 
 substitute "$BAKORDEL" "$HOME/.config/qt5ct/qt5ct.conf" "$GITSRC/qt5ct/qt5ct.conf"
-substitute "$BAKORDEL" "$HOME/.config/qt5ct/colors/HyprWired.conf" "$GITSRC/qt5ct/HyprWired.conf"
+substitute "$BAKORDEL" "$HOME/.config/qt5ct/colors/Hyprlain.conf" "$GITSRC/qt5ct/Hyprlain.conf"
 substitute "$BAKORDEL" "$HOME/.config/qt6ct/qt6ct.conf" "$GITSRC/qt6ct/qt6ct.conf"
-substitute "$BAKORDEL" "$HOME/.config/qt6ct/colors/HyprWired.conf" "$GITSRC/qt6ct/HyprWired.conf"
+substitute "$BAKORDEL" "$HOME/.config/qt6ct/colors/Hyprlain.conf" "$GITSRC/qt6ct/Hyprlain.conf"
 
-echo "color_scheme_path=$HOME/.config/qt6ct/colors/HyprWired.conf" >> $HOME/.config/qt6ct/qt6ct.conf
-echo "color_scheme_path=$HOME/.config/qt5ct/colors/HyprWired.conf" >> $HOME/.config/qt5ct/qt5ct.conf
+echo "color_scheme_path=$HOME/.config/qt6ct/colors/Hyprlain.conf" >> $HOME/.config/qt6ct/qt6ct.conf
+echo "color_scheme_path=$HOME/.config/qt5ct/colors/Hyprlain.conf" >> $HOME/.config/qt5ct/qt5ct.conf
 
-echo "GTK & Qt HyprWired themes installed succesfully."
+echo "GTK & Qt Hyprlain themes installed succesfully."

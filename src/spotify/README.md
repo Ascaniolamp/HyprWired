@@ -1,10 +1,10 @@
-# HyprWired Spotify Theme
+# Spotify Theme
 ![](./showcase.png)
 
 ## [‼️🚨⚠️ DISCLAIMER ⚠️🚨‼️](../../README.md)
-The installation also includes `spicetify-cli`,<br>
-which is not listed in any of the `*pkgs.lst` files.<br>
-If you'd prefer to, you could download it from the AUR<br>
+The installation also includes `spicetify-cli`,
+which is not listed in any of the `*pkgs.lst` files.
+If you'd prefer to, you could download it from the AUR
 instead of using the install script its project includes.
 
 ## Credits

@@ -1,4 +1,4 @@
-# HyprWired GTK/Qt Themes
+# GTK/Qt Themes
 ![](./qtshowcase.gif)
 ![](./gtkshowcase.gif)
 
