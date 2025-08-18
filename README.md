@@ -85,7 +85,6 @@ Therefore, all graphics aren't distributed under any of my licenses.
 ## TODO
 - [ ] Replace GTK's adwaita with a custom theme
 - [ ] Add gtkshowcase.png
-- [ ] All Hyprlain to Hyprlain
 - [ ] Add official svg logo
 - [ ] Better READMEs!
 	- Emojis
