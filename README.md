@@ -1,5 +1,6 @@
 <div align="center">
 
+<<<<<<< HEAD
 <img src="./logo.svg" alt="banner">
 A complete Hyprland configuration for Arch Linux inspired by Serial Experiments Lain.
 
@@ -26,6 +27,27 @@ A complete Hyprland configuration for Arch Linux inspired by Serial Experiments 
 <img src="./src/spotify/showcase.png" width="250">
 <img src="./src/vesktop/showcase.png" width="250">
 <img src="./src/dotfiles/audacious.gif" width="250">
+=======
+A complete Hyprland configuration for Arch Linux inspired by Serial Experiments Lain.
+
+<img alt="License" src="https://img.shields.io/github/license/Ascaniolamp/Hyprlain?style=for-the-badge&logo=gplv3&logoColor=C1B48E&logoSize=auto&labelColor=000000&color=CE7688&link=.%2FLICENSE">
+
+<sub>
+\* Even though the themes and configurations are under the name Hyprlain, most submodules are compatible with non-hyprland installations.
+</sub>
+
+<img src="./src/hyprland/cmdwired.gif" width="200">
+<img src="./src/hyprland/wlogout.png" width="200">
+<img src="./src/hyprland/background.gif" width="200">
+<img src="./src/gtkqtxdg/qtshowcase.png" width="200">
+<img src="./src/gtkqtxdg/gtkshowcase.png" width="200">
+<img src="./src/sddm/showcase.mp4" width="200">
+<img src="./src/dotfiles/firefox.gif" width="200">
+<img src="./src/rofi/showcase.png" width="200">
+<img src="./src/spotify/showcase.png" width="200">
+<img src="./src/vesktop/showcase.png" width="200">
+<img src="./src/dotfiles/audacious.gif" width="200">
+>>>>>>> e139de97ea29ebbfe642a14edbd98e89b04f6cc4
 
 </div>
 
