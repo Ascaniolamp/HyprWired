@@ -1,5 +1,5 @@
 # SDDM Theme
-![](./showcase.mp4)
+![](./showcase.gif)
 
 ## [‼️🚨⚠️ DISCLAIMER ⚠️🚨‼️](../../README.md)
 
