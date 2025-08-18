@@ -1,17 +1,26 @@
-# 👁🧿 H y p r W i r e d 🧿👁
-A complete Hyprland[*](❗ Important Notes ❗) configuration for Arch Linux[*](❗ Important Notes ❗) inspired by Serial Experiments Lain.
+<div align="center">
 
-![](./src/hyprland/cmdwired.gif)
-![](./src/hyprland/wlogout.png)
-![](./src/hyprland/background.gif)
-![](./src/gtkqtxdg/qtshowcase.png)
-![](./src/gtkqtxdg/gtkshowcase.png)
-![](./src/sddm/showcase.mp4)
-![](./src/dotfiles/firefox.gif)
-![](./src/rofi/showcase.png)
-![](./src/spotify/showcase.png)
-![](./src/vesktop/showcase.png)
-![](./src/dotfiles/audacious.gif)
+A complete Hyprland configuration for Arch Linux inspired by Serial Experiments Lain.
+
+<img alt="License" src="https://img.shields.io/github/license/Ascaniolamp/Hyprlain?style=for-the-badge&logo=gplv3&logoColor=C1B48E&logoSize=auto&labelColor=000000&color=CE7688&link=.%2FLICENSE">
+
+<sub>
+\* Even though the themes and configurations are under the name Hyprlain, most submodules are compatible with non-hyprland installations.
+</sub>
+
+<img src="./src/hyprland/cmdwired.gif" width="200">
+<img src="./src/hyprland/wlogout.png" width="200">
+<img src="./src/hyprland/background.gif" width="200">
+<img src="./src/gtkqtxdg/qtshowcase.png" width="200">
+<img src="./src/gtkqtxdg/gtkshowcase.png" width="200">
+<img src="./src/sddm/showcase.mp4" width="200">
+<img src="./src/dotfiles/firefox.gif" width="200">
+<img src="./src/rofi/showcase.png" width="200">
+<img src="./src/spotify/showcase.png" width="200">
+<img src="./src/vesktop/showcase.png" width="200">
+<img src="./src/dotfiles/audacious.gif" width="200">
+
+</div>
 
 ## ‼️🚨⚠️ DISCLAIMER ⚠️🚨‼️
 
@@ -49,8 +58,6 @@ be neither dangerous nor destructive (as you might not have many dotfiles yet).
 - You should be able to install every module individually (stand-alone).
 - To install submodules individually (each one has an install.sh script),
   you'll need to put the `helper.sh` script in the module's parent directory.
-- Even though the themes and configurations are under the name Hyprlain,
-  most submodules are compatible with non-hyprland installations.
 - When applying a theme in nwg-look (by clicking the GUI "apply" button),
   the .config/assets folder will automatically be deleted!
   This is because of nwg-look, it doesn't have anything to do with me!
