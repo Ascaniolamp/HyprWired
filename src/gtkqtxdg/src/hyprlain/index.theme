@@ -1,0 +1,6 @@
+[X-GNOME-Metatheme]
+Name=hyprlain
+Type=X-GNOME-Metatheme
+Comment=Hyprlain GTK theme
+Encoding=UTF-8
+GtkTheme=hyprlain
