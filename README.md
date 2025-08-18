@@ -1,23 +1,22 @@
 <div align="center">
 
 <img src="./logo.svg" alt="banner">
+<br>
 A complete Hyprland configuration for Arch Linux inspired by Serial Experiments Lain.
-
+<br>
 <sub>
 * Even though the themes and configurations are under the name Hyprlain, most submodules are compatible with non-hyprland installations.
 </sub>
-
 <br>
-
+<br>
 <div>
 	<img alt="Hyprland" src="https://img.shields.io/badge/hyprland-tested-blue?style=for-the-badge&logo=hyprland&logoColor=C1B48E&logoSize=auto&labelColor=000000&color=CE7688">
 	<img alt="Arch Linux" src="https://img.shields.io/badge/arch-tested-blue?style=for-the-badge&logo=archlinux&logoColor=C1B48E&logoSize=auto&labelColor=000000&color=CE7688">
 	<img alt="License" src="https://img.shields.io/github/license/Ascaniolamp/Hyprlain?style=for-the-badge&logo=gplv3&logoColor=C1B48E&logoSize=auto&labelColor=000000&color=CE7688&link=.%2FLICENSE">
 	<img alt="Mail me" src="https://img.shields.io/badge/email%20me-ciao?style=for-the-badge&logo=gmail&logoColor=C1B48E&logoSize=auto&labelColor=000000&color=CE7688&link=mailto%3Aascaniolamp%40gmail.com">
 </div>
-
 <br>
-
+<br>
 <img src="./src/hyprland/cmdwired.gif" width="300">
 <img src="./src/hyprland/wlogout.png" width="300">
 <img src="./src/hyprland/background.gif" width="300">
