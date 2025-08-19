@@ -11,13 +11,13 @@ fi
 substitute "$BAKORDEL" "$HOME/.local/share/audacious/Skins/lainampborders" "$GITSRC/audacious/lainampborders"
 substitute "$BAKORDEL" "$HOME/.config/audacious/config" "$GITSRC/audacious/config"
 AUDSKIN_SHLINE="skin=$HOME/.local/share/audacious/Skins/lainampborders"
-echo $AUDSKIN_SHLINE >> $HOME/.config/audacious/config
+sudo echo $AUDSKIN_SHLINE >> $HOME/.config/audacious/config
 
 echo "To install the Firefox theme, follow the README's instructions!"
 
-cat $GITSRC/.profile >> $HOME/.profile
+sudo cat $GITSRC/.profile >> $HOME/.profile
 DOTPROFILE_SHLINE="[[ -f ~/.profile ]] && . ~/.profile"
-echo $DOTPROFILE_SHLINE >> $HOME/.bashrc
-echo $DOTPROFILE_SHLINE >> $HOME/.zshrc
+sudo echo $DOTPROFILE_SHLINE >> $HOME/.bashrc
+sudo echo $DOTPROFILE_SHLINE >> $HOME/.zshrc
 
 echo "Hyprlain dotfiles installed succesfully."

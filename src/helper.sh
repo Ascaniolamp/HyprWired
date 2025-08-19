@@ -1,5 +1,5 @@
 #!/bin/env bash
-set -euo pipefail
+set -euox pipefail
 sudo echo
 
 if ! command -v yay &> /dev/null; then
@@ -36,9 +36,7 @@ if ! [ $# -eq 0 ] && ! [ -z $1 ]; then
 			fi
 		;;
 
-		"backup")
-			return
-		;;
+		"backup");;
 
 		*)
 			echo "install.sh: unrecognized option '$1'"

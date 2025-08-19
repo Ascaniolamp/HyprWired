@@ -23,9 +23,9 @@ substitute "$BAKORDEL" "$HOME/.config/kitty/current-theme.conf" "$GITSRC/kitty/c
 substitute "$BAKORDEL" "$HOME/.config/kitty/themes/hyprlain.conf" "$GITSRC/kitty/themes/hyprlain.conf"
 substitute "$BAKORDEL" "$HOME/.config/kitty/themes/hyprlain.conf-colors" "$GITSRC/kitty/themes/hyprlain-colors.conf"
 
-cat $GITSRC/.profile >> $HOME/.profile
+sudo cat $GITSRC/.profile >> $HOME/.profile
 DOTPROFILE_SHLINE="[[ -f ~/.profile ]] && . ~/.profile"
-echo $DOTPROFILE_SHLINE >> $HOME/.bashrc
-echo $DOTPROFILE_SHLINE >> $HOME/.zshrc
+sudo echo $DOTPROFILE_SHLINE >> $HOME/.bashrc
+sudo echo $DOTPROFILE_SHLINE >> $HOME/.zshrc
 
 echo "Hyprland Hyprlain theme installed succesfully."
