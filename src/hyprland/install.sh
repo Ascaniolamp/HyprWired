@@ -14,7 +14,7 @@ CONTENT=$(jq --arg IMGPATH "$IMGPATH" '.image.path = $IMGPATH' "$WAYBARCONF")
 sudo echo "$CONTENT" > "$WAYBARCONF"
 
 substitute "$BAKORDEL" "$HOME/.config/wlogout/style.css" "$GITSRC/wlogout/style.css"
-substitute "$BAKORDEL" "$HOME/.config/waybar/config.json" "$GITSRC/waybar/config.json"
+substitute "$BAKORDEL" "$HOME/.config/waybar/config.jsonc" "$GITSRC/waybar/config.jsonc"
 substitute "$BAKORDEL" "$HOME/.config/waybar/power_menu.xml" "$GITSRC/waybar/power_menu.xml"
 substitute "$BAKORDEL" "$HOME/.config/waybar/style.css" "$GITSRC/waybar/style.css"
 substitute "$BAKORDEL" "$HOME/.config/hypr" "$GITSRC/hypr"
