@@ -9,19 +9,18 @@ echo "spotify_path = $HOME/.local/share/spotify-launcher/install/usr/share/spoti
 substitute "$BAKORDEL" "$HOME/.config/spicetify/Themes/Hyprlain" "$GITSRC/Hyprlain"
 substitute "$BAKORDEL" "$HOME/.config/spicetify/config-xpui.ini" "$GITSRC/config-xpui.ini"
 
+spotify&
+killall spotify
+sudo chmod a+wr /opt/spotify
+sudo chmod a+wr /opt/spotify/Apps -R
 mkdir -p "$HOME/.config/spotify"
 touch "$HOME/.config/spotify/prefs"
 
-spotify&
-killall spotify
-
 (curl -fsSL https://raw.githubusercontent.com/spicetify/spicetify-cli/master/install.sh | sh) || true
-sudo chmod a+wr /opt/spotify
-sudo chmod a+wr /opt/spotify/Apps -R
 spicetify
 spicetify backup apply
 spicetify update
-curl -fsSL https://raw.githubusercontent.com/spicetify/spicetify-marketplace/main/resources/install.sh | sh
 spicetify apply
+curl -fsSL https://raw.githubusercontent.com/spicetify/spicetify-marketplace/main/resources/install.sh | sh
 
 echo "Spotify Hyprlain theme installed succesfully."
