@@ -9,7 +9,7 @@ if [ $? == 0 ]; then
 fi
 
 substitute "$BAKORDEL" "$HOME/.local/share/audacious/Skins/lainampborders" "$GITSRC/audacious/lainampborders"
-sudo echo "skin=$HOME/.local/share/audacious/Skins/lainampborders" >> "$GITSRC/audacious/config"
+echo "skin=$HOME/.local/share/audacious/Skins/lainampborders" >> "$GITSRC/audacious/config"
 substitute "$BAKORDEL" "$HOME/.config/audacious/config" "$GITSRC/audacious/config"
 
 echo "To install the Firefox theme, follow the README's instructions!"

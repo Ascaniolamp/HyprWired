@@ -13,10 +13,10 @@ substitute "$BAKORDEL" "/usr/share/themes/hyprlain" "$GITSRC/hyprlain"
 substitute "$BAKORDEL" "$HOME/.config/xdg-desktop-portal/hyprland-portals.conf" "$GITSRC/hyprland-portals.conf"
 substitute "$BAKORDEL" "$HOME/.config/xsettingsd.conf" "$GITSRC/xsettingsd.conf"
 
-sudo echo "color_scheme_path=$HOME/.config/qt5ct/colors/Hyprlain.conf" >> "$GITSRC/qt5ct/qt5ct.conf"
+echo "color_scheme_path=$HOME/.config/qt5ct/colors/Hyprlain.conf" >> "$GITSRC/qt5ct/qt5ct.conf"
 substitute "$BAKORDEL" "$HOME/.config/qt5ct/qt5ct.conf" "$GITSRC/qt5ct/qt5ct.conf"
 substitute "$BAKORDEL" "$HOME/.config/qt5ct/colors/Hyprlain.conf" "$GITSRC/qt5ct/Hyprlain.conf"
-sudo echo "color_scheme_path=$HOME/.config/qt6ct/colors/Hyprlain.conf" >> "$GITSRC/qt6ct/qt6ct.conf"
+echo "color_scheme_path=$HOME/.config/qt6ct/colors/Hyprlain.conf" >> "$GITSRC/qt6ct/qt6ct.conf"
 substitute "$BAKORDEL" "$HOME/.config/qt6ct/qt6ct.conf" "$GITSRC/qt6ct/qt6ct.conf"
 substitute "$BAKORDEL" "$HOME/.config/qt6ct/colors/Hyprlain.conf" "$GITSRC/qt6ct/Hyprlain.conf"
 
