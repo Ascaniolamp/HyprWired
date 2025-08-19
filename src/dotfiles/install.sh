@@ -1,6 +1,6 @@
 #!/bin/env bash
+source $(dirname "$0")/../helper.sh
 GITSRC=$(dirname "$0")/src
-source $GITSRC/../helper.sh
 
 echo "You might just want to keep these themes for the time in which you'll download their apps."
 ynprompt "Would you like to download every theme's relative application?"

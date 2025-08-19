@@ -1,6 +1,6 @@
 #!/bin/env bash
+source $(dirname "$0")/../helper.sh
 GITSRC=$(dirname "$0")/src
-source $GITSRC/../helper.sh
 
 downdependencies "$GITSRC/pacpkgs.lst" "$GITSRC/aurpkgs.lst"
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
