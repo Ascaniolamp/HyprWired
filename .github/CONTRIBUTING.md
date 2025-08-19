@@ -26,7 +26,7 @@ check out these tutorials on how to contribute:<br>
 [First Contributions](https://github.com/firstcontributions/first-contributions#first-contributions),
 [First Timers Only](https://firsttimersonly.com)
 
-**If you find a security vulnerability, DO NOT MAKE IT PUBLIC. [Email me](mailto:ascaniolamp@gmail.com) instead.**
+**[If you find a security vulnerability, DO NOT MAKE IT PUBLIC.](./SECURITY.md)**
 
 # Rules
 If you've already set your mind on contributing to the project,

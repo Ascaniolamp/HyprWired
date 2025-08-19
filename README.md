@@ -9,6 +9,13 @@
 </a>
 <img alt="Hyprland" src="https://img.shields.io/badge/hyprland-tested-blue?style=for-the-badge&logo=hyprland&logoColor=C1B48E&logoSize=auto&labelColor=000000&color=CE7688">
 <img alt="Arch Linux" src="https://img.shields.io/badge/arch-tested-blue?style=for-the-badge&logo=archlinux&logoColor=C1B48E&logoSize=auto&labelColor=000000&color=CE7688">
+<br>
+<a href="https://liberapay.com/Ascaniolamp/donate">
+<img alt="Liberapay" src="https://img.shields.io/badge/donate-blue?style=for-the-badge&logo=liberapay&logoColor=C1B48E&logoSize=auto&labelColor=000000&color=CE7688">
+</a>
+<a href="https://paypal.me/AscanioNarcisi">
+<img alt="PayPal" src="https://img.shields.io/badge/donate-blue?style=for-the-badge&logo=PayPal&logoColor=C1B48E&logoSize=auto&labelColor=000000&color=CE7688">
+</a>
 <br><br>
 A complete Hyprland configuration for Arch Linux inspired by Serial Experiments Lain.
 <br>
@@ -33,10 +40,10 @@ This started off and was supposed to be my personal rice.
 When I'd finished working on it, I thought others may like it,
 so I decided to share it to the public.
 That's why I was careless about tracking any credits or sources
-(a bona fide mistake which I tried to make up to as much as possible).
-Therefore, even though all submodules in this repo are distributed under the GPLv3.0 license,
-the ones with a `LICENSE` file in their folder are excluded (ex. spotify, vesktop).
-I also do not own **any** of the rights to the graphics and audio assets used (see ["Credits"](.#Credits)).
+(a bona fide mistake which I should've made up to AFAIK).
+If you're planning on forking this repository or doing any modifications of your own,
+please do read the ["License" disclaimer](.#License)
+for your and for the original authors' sake.
 
 Because of the same reason, **nothing** in this project is made to be professional nor elegant.
 I highly reccomend you either check (and maybe even modify) the installation
@@ -113,6 +120,9 @@ I count on your bash knowledge and my code's readability and simplicity.
 This is the case for `sh` commands (which will require you to execute them)
 or lines which will require you to modify the content of the treated files.
 
+For now, [y]our only hope is that somebody else (with the right time and knowledge) will come along and contribute to this project.
+If you think you could be that person, please do so!
+
 ## <div align="center" id="Content"> 💾 📜 Content (Submodules) 📜 💾
 \* The marked submodules aren't included in the main installation script.
 
@@ -131,15 +141,10 @@ or lines which will require you to modify the content of the treated files.
 
 ## <div align="center" id="Credits"> 🎀 🌐 ♥ Credits ♥ 🌐 🎀 </div>
 
-<div align="center">
-<strong>⚠️ I DO NOT OWN ANY RIGHTS TO THE GRAPHICS AND SOUNDS USED IN THIS PROJECT ⚠️</strong><br>
-<strong>THEY'RE THE PROPERTY OF THEIR CORRESPONDING OWNERS</strong><br>
-<strong><sup>THEREFORE, THEY AREN'T DISTRIBUTED UNDER ANY OF MY LICENSES</sup></strong>
-</div>
-
 Most credits are inside every submodule's README.
 I'm currently looking for all due credits.
-If you think you should be on this list, [contact me](mailto:ascaniolamp@gmail.com)!
+If you think you should be on [this](./.github/ACKNOWLEDGMENTS.md) list,
+[contact me](mailto:ascaniolamp@gmail.com)!
 
 <strong align="center" id="fauux">Fauux</strong>
 <br>
@@ -150,14 +155,29 @@ Also, go check out their [other project](https://thaer.no)
 and their [youtube channel](https://youtube.com/@fauux) if you're interested.
 They own basically all the art that was used inside this project.
 
+## License
+© [The authors and contributors](./.github/AUTHORS.md)
+
+<div align="center">
+<strong>⚠️ I DO NOT OWN ANY RIGHTS TO THE GRAPHICS AND SOUNDS USED IN THIS PROJECT ⚠️</strong><br>
+<strong>THEY'RE THE PROPERTY OF THEIR CORRESPONDING OWNERS</strong><br>
+<strong><sup>THEREFORE, THEY AREN'T DISTRIBUTED UNDER ANY OF MY LICENSES</sup></strong>
+
+<sub>
+This is a fanmade project inspired by Serial Experiments Lain.
+All characters, images, logos, and stylistic elements from Serial Experiments Lain
+are the intellectual property of Yasuyuki Ueda, Yoshitoshi ABe, Triangle Staff, and/or their respective rights holders.
+This project is not affiliated with, endorsed by, or sponsored by the original creators or rights holders.
+All trademarks and copyrights remain the property of their respective owners.
+This customization is shared for non-commercial, educational, and entertainment purposes under fair use.
+If you are a rights holder and wish for content to be removed or altered, please <a href="mailto:ascaniolamp@gmail.com">contact the developer</a>.
+</sub>
+</div>
+
+This project and most of its submodules are licensed under the [GPLv3.0 license](./LICENSE).
+Submodules with different `LICENSE` files are licensed accordingly (e.g. vesktop, spotify).
+You can read more about how to help in the [contributing guide](./.github/CONTRIBUTING.md).
+
 ## TODO
 - [ ] Replace GTK's adwaita with a custom theme
 - [ ] Add gtkshowcase.png
-- [ ] Add releases
-- [ ] Add fauux to [AUTHORS](https://github.com/joelparkerhenderson/github-special-files-and-paths?tab=readme-ov-file#authors)
-= [ ] Add FUNDING.yml
-- [ ] Add [ACKNOWLEDGMENTS](https://github.com/joelparkerhenderson/github-special-files-and-paths?tab=readme-ov-file#acknowledgments)
-- [ ] Add [ISSUE_TEMPLATE](https://github.com/joelparkerhenderson/github-special-files-and-paths?tab=readme-ov-file#issue_template)
-
-For now, [y]our only hope is that somebody else (with the right time and knowledge) will come along and contribute to this project.
-If you think you could be that person, please do so!
