@@ -2,6 +2,11 @@
 set -euo pipefail
 sudo echo
 
+if ! [ command -v yay >/dev/null 2>&1 ]; then
+	echo "Yay not installed. Aborting."
+	exit 2
+fi
+
 BAKORDEL="backup"
 if ! [ $# -eq 0 ] && ! [ -z $1 ]; then
 	if [ "$1" == "--no-preserve" ]; then
