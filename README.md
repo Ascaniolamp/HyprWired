@@ -186,5 +186,4 @@ You can read more about how to help in the [contributing guide](./.github/CONTRI
 © [The authors and contributors](./.github/AUTHORS.md)
 
 ## TODO
-- [ ] Replace GTK's adwaita with a custom theme
-- [ ] Add gtkshowcase.png
+- [ ] Replace [GTK's adwaita](./src/qtgtkxdg) with a custom theme and change showcase.png
