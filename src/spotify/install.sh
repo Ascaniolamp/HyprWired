@@ -8,9 +8,14 @@ echo "prefs_path = $HOME/.config/spotify/prefs" >> "$GITSRC/config-xpui.ini"
 substitute "$BAKORDEL" "$HOME/.config/spicetify/Themes/Hyprlain" "$GITSRC/Hyprlain"
 substitute "$BAKORDEL" "$HOME/.config/spicetify/config-xpui.ini" "$GITSRC/config-xpui.ini"
 
-curl -fsSL https://raw.githubusercontent.com/spicetify/spicetify-cli/master/install.sh | sh
+mkdir -p "$HOME/.config/spotify"
+touch "$HOME/.config/spotify/prefs"
+
+(curl -fsSL https://raw.githubusercontent.com/spicetify/spicetify-cli/master/install.sh | sh) || true
 spicetify
 spicetify backup apply enable-devtools
+sudo chmod a+wr /opt/spotify
+sudo chmod a+wr /opt/spotify/Apps -R
 curl -fsSL https://raw.githubusercontent.com/spicetify/spicetify-marketplace/main/resources/install.sh | sh
 spicetify apply
 
