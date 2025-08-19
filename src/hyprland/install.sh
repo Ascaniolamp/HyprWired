@@ -8,7 +8,9 @@ read
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 IMGPATH="$HOME/.config/assets/media/imgs/icons/favicon_32px.png"
-jq --arg IMGPATH "$IMGPATH" '.image.path = $IMGPATH' "$GITSRC/waybar/config.jsonc"
+WAYBARCONF="$GITSRC/waybar/config.jsonc"
+CONTENT=$(jq --arg IMGPATH "$IMGPATH" '.image.path = $IMGPATH' "$WAYBARCONF")
+sudo echo "$CONTENT" > "$WAYBARCONF"
 
 substitute "$BAKORDEL" "$HOME/.config/wlogout/style.css" "$GITSRC/wlogout/style.css"
 substitute "$BAKORDEL" "$HOME/.config/waybar/config.json" "$GITSRC/waybar/config.json"
