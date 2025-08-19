@@ -18,7 +18,7 @@ substitute "$BAKORDEL" "$HOME/.config/qt5ct/colors/Hyprlain.conf" "$GITSRC/qt5ct
 substitute "$BAKORDEL" "$HOME/.config/qt6ct/qt6ct.conf" "$GITSRC/qt6ct/qt6ct.conf"
 substitute "$BAKORDEL" "$HOME/.config/qt6ct/colors/Hyprlain.conf" "$GITSRC/qt6ct/Hyprlain.conf"
 
-sudo echo "color_scheme_path=$HOME/.config/qt6ct/colors/Hyprlain.conf" >> $HOME/.config/qt6ct/qt6ct.conf
-sudo echo "color_scheme_path=$HOME/.config/qt5ct/colors/Hyprlain.conf" >> $HOME/.config/qt5ct/qt5ct.conf
+sudo echo "color_scheme_path=$HOME/.config/qt6ct/colors/Hyprlain.conf" >> "$HOME/.config/qt6ct/qt6ct.conf"
+sudo echo "color_scheme_path=$HOME/.config/qt5ct/colors/Hyprlain.conf" >> "$HOME/.config/qt5ct/qt5ct.conf"
 
 echo "GTK & Qt Hyprlain themes installed succesfully."
