@@ -3,7 +3,9 @@ set -euo pipefail
 sudo echo
 
 if ! [ command -v yay >/dev/null 2>&1 ]; then
-	echo "Yay not installed. Aborting."
+	echo "Yay not installed, follow this tutorial:"
+	echo "https://github.com/Jguer/yay#installation"
+	echo "Aborting."
 	exit 2
 fi
 
