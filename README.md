@@ -116,16 +116,16 @@ or lines which will require you to modify the content of the treated files.
 ## <div align="center" id="Content"> 💾 📜 Content (Submodules) 📜 💾
 \* The marked submodules aren't included in the main installation script.
 
-- [Hyprland Theme](./src/hyprland)
-- [SDDM Theme](./src/sddm)
-- [Rofi Launcher Theme](./src/rofi)
-- [Spotify Theme](./src/spotify)
-- [Vesktop Theme](./src/vesktop)
-- [GTK & QT Themes](./src/gtkqtxdg)
-- [Audacious Theme](./src/dotfiles#Audacious)
-- [Firefox Theme](./src/dotfiles#Firefox)
-- *[Albert Launcher Theme](./src/albert)
-- [More](./src/dotfiles)
+<a href="./src/hyprland"><kbd> <br> Hyprland <br> </kbd></a> 
+<a href="./src/sddm"><kbd> <br> SDDM <br> </kbd></a> 
+<a href="./src/rofi"><kbd> <br> Rofi <br> </kbd></a> 
+<a href="./src/spotify"><kbd> <br> Spotify <br> </kbd></a> 
+<a href="./src/vesktop"><kbd> <br> Vesktop <br> </kbd></a> 
+<a href="./src/gtkqtxdg"><kbd> <br> GTK & QT <br> </kbd></a> 
+<a href="./src/dotfiles#Audacious"><kbd> <br> *Audacious <br> </kbd></a> 
+<a href="./src/dotfiles#Firefox"><kbd> <br> Firefox <br> </kbd></a> 
+<a href="./src/albert"><kbd> <br> Albert <br> </kbd></a> 
+<a href="./src/dotfiles"><kbd> <br> More <br> </kbd></a> 
 
 </div>
 
@@ -144,21 +144,20 @@ If you think you should be on this list, [contact me](mailto:ascaniolamp@gmail.c
 <strong align="center" id="fauux">Fauux</strong>
 <br>
 Most (if not all) of the amazing graphics come from fauux's [neocities page](https://fauux.neocities.org).
-If you're able to do so, please [send them a donation](https://paypal.com/donate/?hosted_button_id=EED5LRPSLVP4Q), they really deserve it!
-Also, go check out their [other project](https://thaer.no) and their [youtube channel](https://youtube.com/@fauux) if you're interested.
+If you're able to do so, please [send them a donation](https://paypal.com/donate/?hosted_button_id=EED5LRPSLVP4Q),
+they really deserve it!
+Also, go check out their [other project](https://thaer.no)
+and their [youtube channel](https://youtube.com/@fauux) if you're interested.
 They own basically all the art that was used inside this project.
 
 ## TODO
 - [ ] Replace GTK's adwaita with a custom theme
 - [ ] Add gtkshowcase.png
 - [ ] Add releases
-- [ ] Check for TODO
-- [ ] Submodules to kbd buttons
-- [ ] Better READMEs!
-	- Emojis
-	- Cards/badges/shields
-	- Special files/paths
+- [ ] Add fauux to [AUTHORS](https://github.com/joelparkerhenderson/github-special-files-and-paths?tab=readme-ov-file#authors)
+= [ ] Add FUNDING.yml
+- [ ] Add [ACKNOWLEDGMENTS](https://github.com/joelparkerhenderson/github-special-files-and-paths?tab=readme-ov-file#acknowledgments)
+- [ ] Add [ISSUE_TEMPLATE](https://github.com/joelparkerhenderson/github-special-files-and-paths?tab=readme-ov-file#issue_template)
 
-For now, [y]our only hope is that somebody else (with the right time and knowledge)
-will come along and contribute to this project.
-If you think you're that person, please do try!
+For now, [y]our only hope is that somebody else (with the right time and knowledge) will come along and contribute to this project.
+If you think you could be that person, please do so!
