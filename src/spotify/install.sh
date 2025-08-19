@@ -10,10 +10,8 @@ spicetify
 spicetify backup apply enable-devtools
 
 substitute "$BAKORDEL" "$HOME/.config/spicetify/Themes/Hyprlain" "$GITSRC/Hyprlain"
+echo "prefs_path = $HOME/.config/spotify/prefs" >> "$GITSRC/config-xpui.ini"
 substitute "$BAKORDEL" "$HOME/.config/spicetify/config-xpui.ini" "$GITSRC/config-xpui.ini"
-
 spicetify apply
-spicetify refresh
-spicetify update
 
 echo "Spotify Hyprlain theme installed succesfully."
