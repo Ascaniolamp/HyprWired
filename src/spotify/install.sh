@@ -12,6 +12,9 @@ substitute "$BAKORDEL" "$HOME/.config/spicetify/config-xpui.ini" "$GITSRC/config
 mkdir -p "$HOME/.config/spotify"
 touch "$HOME/.config/spotify/prefs"
 
+spotify&
+killall spotify
+
 (curl -fsSL https://raw.githubusercontent.com/spicetify/spicetify-cli/master/install.sh | sh) || true
 sudo chmod a+wr /opt/spotify
 sudo chmod a+wr /opt/spotify/Apps -R
