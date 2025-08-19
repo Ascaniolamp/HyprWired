@@ -16,6 +16,10 @@
 <a href="https://paypal.me/AscanioNarcisi">
 <img alt="PayPal" src="https://img.shields.io/badge/donate-blue?style=for-the-badge&logo=PayPal&logoColor=C1B48E&logoSize=auto&labelColor=000000&color=CE7688">
 </a>
+</a>
+<a href="https://paypal.com/donate/?hosted_button_id=EED5LRPSLVP4Q">
+<img alt="PayPal" src="https://img.shields.io/badge/donate-blue?style=for-the-badge&logo=PayPal&logoColor=C1B48E&logoSize=auto&labelColor=000000&color=CE7688">
+</a>
 <br><br>
 A complete Hyprland configuration for Arch Linux inspired by Serial Experiments Lain.
 <br>
@@ -131,6 +135,7 @@ If you think you could be that person, please do so!
 <a href="./src/rofi"><kbd> <br> Rofi <br> </kbd></a> 
 <a href="./src/spotify"><kbd> <br> Spotify <br> </kbd></a> 
 <a href="./src/vesktop"><kbd> <br> Vesktop <br> </kbd></a> 
+<br>
 <a href="./src/gtkqtxdg"><kbd> <br> GTK & QT <br> </kbd></a> 
 <a href="./src/dotfiles#Audacious"><kbd> <br> *Audacious <br> </kbd></a> 
 <a href="./src/dotfiles#Firefox"><kbd> <br> Firefox <br> </kbd></a> 
