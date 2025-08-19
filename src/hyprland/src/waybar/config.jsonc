@@ -2,7 +2,8 @@
 	"layer": "top",
 	"position": "top",
 	"height": 24,
-	"width": 1431, // 1908
+	"width": 1431,
+	//	1908
 	"spacing": 0,
 	//	"mode": "hide",
 	"modules-left": [

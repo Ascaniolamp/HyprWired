@@ -3,9 +3,12 @@ source $(dirname "$0")/../helper.sh
 GITSRC=$(dirname "$0")/src
 
 downdependencies "$GITSRC/pacpkgs.lst" "$GITSRC/aurpkgs.lst"
+echo "CLOSE THE SHELL AFTER INSTALLING ZSH BY TYPING 'exit'"
+read
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
-jq --arg IMGPATH "$HOME/.config/assets/media/imgs/icons/favicon_32px.png" '.image.path = $IMGPATH' $GITSRC/waybar/config.jsonc
+IMGPATH="$HOME/.config/assets/media/imgs/icons/favicon_32px.png"
+jq --arg IMGPATH "$IMGPATH" '.image.path = $IMGPATH' "$GITSRC/waybar/config.jsonc"
 
 substitute "$BAKORDEL" "$HOME/.config/wlogout/style.css" "$GITSRC/wlogout/style.css"
 substitute "$BAKORDEL" "$HOME/.config/waybar/config.json" "$GITSRC/waybar/config.json"
