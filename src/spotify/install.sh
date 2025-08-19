@@ -16,7 +16,8 @@ touch "$HOME/.config/spotify/prefs"
 sudo chmod a+wr /opt/spotify
 sudo chmod a+wr /opt/spotify/Apps -R
 spicetify
-spicetify backup apply enable-devtools
+spicetify backup apply
+spicetify update
 curl -fsSL https://raw.githubusercontent.com/spicetify/spicetify-marketplace/main/resources/install.sh | sh
 spicetify apply
 
