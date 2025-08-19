@@ -162,13 +162,11 @@ and their [youtube channel](https://youtube.com/@fauux) if you're interested.
 They own basically all the art that was used inside this project.
 
 ## License
-© [The authors and contributors](./.github/AUTHORS.md)
-
 <div align="center">
 <strong>⚠️ I DO NOT OWN ANY RIGHTS TO THE GRAPHICS AND SOUNDS USED IN THIS PROJECT ⚠️</strong><br>
 <strong>THEY'RE THE PROPERTY OF THEIR CORRESPONDING OWNERS</strong><br>
 <strong><sup>THEREFORE, THEY AREN'T DISTRIBUTED UNDER ANY OF MY LICENSES</sup></strong>
-
+<br>
 <sub>
 This is a fanmade project inspired by Serial Experiments Lain.
 All characters, images, logos, and stylistic elements from Serial Experiments Lain
@@ -179,10 +177,13 @@ This customization is shared for non-commercial, educational, and entertainment 
 If you are a rights holder and wish for content to be removed or altered, please <a href="mailto:ascaniolamp@gmail.com">contact the developer</a>.
 </sub>
 </div>
+<br>
 
 This project and most of its submodules are licensed under the [GPLv3.0 license](./LICENSE).
 Submodules with different `LICENSE` files are licensed accordingly (e.g. vesktop, spotify).
 You can read more about how to help in the [contributing guide](./.github/CONTRIBUTING.md).
+
+© [The authors and contributors](./.github/AUTHORS.md)
 
 ## TODO
 - [ ] Replace GTK's adwaita with a custom theme
