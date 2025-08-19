@@ -73,7 +73,7 @@ function handleold () {
 		;;
 	esac
 
-	mkdir -p $(dirname "$DIRFILE")
+	sudo mkdir -p $(dirname "$DIRFILE")
 }
 
 function substitute () {
@@ -82,7 +82,7 @@ function substitute () {
 	GITFILE=$3
 
 	handleold "$ACTOPTION" "$DIRFILE"
-	cp -r $GITFILE $DIRFILE
+	sudo cp -r $GITFILE $DIRFILE
 }
 
 function downdependencies () {
