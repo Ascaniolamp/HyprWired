@@ -127,9 +127,11 @@ or lines which will require you to modify the content of the treated files.
 For now, [y]our only hope is that somebody else (with the right time and knowledge) will come along and contribute to this project.
 If you think you could be that person, please do so!
 
-## <div align="center" id="Content"> 💾 📜 Content (Submodules) 📜 💾
-\* The marked submodules aren't included in the main installation script.
+## <div align="center" id="Content"> 💾 📜 Content (Submodules) 📜 💾</div>
 
+<div align="center">
+* The marked submodules aren't included in the main installation script.
+<br><br>
 <a href="./src/hyprland"><kbd> <br> Hyprland <br> </kbd></a> 
 <a href="./src/sddm"><kbd> <br> SDDM <br> </kbd></a> 
 <a href="./src/rofi"><kbd> <br> Rofi <br> </kbd></a> 
@@ -141,7 +143,6 @@ If you think you could be that person, please do so!
 <a href="./src/dotfiles#Firefox"><kbd> <br> Firefox <br> </kbd></a> 
 <a href="./src/albert"><kbd> <br> Albert <br> </kbd></a> 
 <a href="./src/dotfiles"><kbd> <br> More <br> </kbd></a> 
-
 </div>
 
 ## <div align="center" id="Credits"> 🎀 🌐 ♥ Credits ♥ 🌐 🎀 </div>
