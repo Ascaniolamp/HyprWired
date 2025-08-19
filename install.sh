@@ -12,14 +12,14 @@ sudo wget $NERDFONT_URL -P $NERDFONT_DIR/.
 sudo unzip $NERDFONT_DIR/$NERDFONT_ZIP -d $NERDFONT_DIR/.
 sudo rm $NERDFONT_DIR/$NERDFONT_ZIP
 
-# $GITSRC/albert/install.sh $1
-$GITSRC/dotfiles/install.sh $1
-$GITSRC/gtkqtxdg/install.sh $1
-$GITSRC/hyprland/install.sh $1
-$GITSRC/rofi/install.sh $1
-$GITSRC/sddm/install.sh $1
-$GITSRC/spotify/install.sh $1
-$GITSRC/vesktop/install.sh $1
+# $GITSRC/albert/install.sh $BAKORDEL
+$GITSRC/dotfiles/install.sh $BAKORDEL
+$GITSRC/gtkqtxdg/install.sh $BAKORDEL
+$GITSRC/hyprland/install.sh $BAKORDEL
+$GITSRC/rofi/install.sh $BAKORDEL
+$GITSRC/sddm/install.sh $BAKORDEL
+$GITSRC/spotify/install.sh $BAKORDEL
+$GITSRC/vesktop/install.sh $BAKORDEL
 
 echo "Hyprlain was succesfully installed!"
 ynprompt "Would you like to remove all installation files?"
