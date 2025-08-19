@@ -1,6 +1,6 @@
 #!/bin/env bash
-source ../helper.sh
 GITSRC=$(dirname "$0")/src
+source $GITSRC/../helper.sh
 
 downdependencies "$GITSRC/pacpkgs.lst" "$GITSRC/aurpkgs.lst"
 curl -fsSL https://raw.githubusercontent.com/spicetify/spicetify-cli/master/install.sh | sh
