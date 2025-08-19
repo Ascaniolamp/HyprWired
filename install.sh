@@ -2,6 +2,8 @@
 GITSRC=$(dirname "$0")/src
 source $GITSRC/helper.sh
 
+downdependencies "$GITSRC/pacpkgs.lst" "$GITSRC/aurpkgs.lst"
+
 NERDFONT_DIR=/usr/local/share/fonts/ttf/AdwaitaMonoNerd
 NERDFONT_URL=https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/AdwaitaMono.zip
 NERDFONT_ZIP=$(basename -- "$NERDFONT_URL")
