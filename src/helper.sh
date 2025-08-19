@@ -11,36 +11,43 @@ fi
 
 BAKORDEL="backup"
 if ! [ $# -eq 0 ] && ! [ -z $1 ]; then
-	if [ "$1" == "--no-preserve" ]; then
-		echo "This option will delete all your previous configurations."
-		echo "It may also risk affecting other associated files."
-		read -p "Are you sure you want to proceed? [y/N]: " yn
-		case $yn in
-			[Yy]*)
-				RES=0
-				;;
-			[Nn]*)
-				RES=1
-				;;
-			*)
-				RES=1
-				;;
-		esac
+	case "$1" in
+		"--no-preserve")
+			echo "This option will delete all your previous configurations."
+			echo "It may also risk affecting other associated files."
+			read -p "Are you sure you want to proceed? [y/N]: " yn
+			case $yn in
+				[Yy]*)
+					RES=0
+					;;
+				[Nn]*)
+					RES=1
+					;;
+				*)
+					RES=1
+					;;
+			esac
+			if [ $RES == 0 ]; then
+				BAKORDEL="--no-preserve"
+				echo "Proceeding by deletion."
+			elif [ $RES == 1 ]; then
+				echo "Aborting."
+				exit 0
+			fi
+		;;
 
-		if [ $RES == 0 ]; then
-			BAKORDEL="delete"
-			echo "Proceeding by deletion."
-		elif [ $RES == 1 ]; then
-			echo "Aborting."
-			exit 0
-		fi
-	else
-		echo "install.sh: unrecognized option '$1'"
-		echo
-		echo "Usage: install.sh [OPTION]"
-		echo "Options:"
-		echo "  --no-preserve	Replace old files by deleting them. [DANGEROUS]"
-	fi
+		"backup")
+			return
+		;;
+
+		*)
+			echo "install.sh: unrecognized option '$1'"
+			echo
+			echo "Usage: install.sh [OPTION]"
+			echo "Options:"
+			echo "  --no-preserve	Replace old files by deleting them. [DANGEROUS]"
+		;;
+	esac
 fi
 
 function ynprompt () {
@@ -65,11 +72,11 @@ function handleold () {
 	DIRFILE=$2
 
 	case "$ACTOPTION" in
-		"d" | "delete")
+		"--no-preserve")
 			sudo rm -r $DIRFILE || true
 			;;
 
-		"b" | "backup")
+		"backup")
 			sudo rm -r $DIRFILE.hyprlainbak || true
 			sudo mv $DIRFILE $DIRFILE.hyprlainbak || true
 			;;

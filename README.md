@@ -86,7 +86,7 @@ so if you're trying to install them on an X11 DE, you might want to check their 
 
 ### Scripts
 <div align="center">
-<strong>⚠️ <a href="https://github.com/Jguer/yay">YAY</a> IS REQUIRED TO INSTALL AUR PACKAGES VIA THE INSTALL SCRIPTS ⚠️</strong><br>
+<strong>⚠️ <a href="https://github.com/Jguer/yay#installation">YAY</a> IS REQUIRED TO INSTALL AUR PACKAGES VIA THE INSTALL SCRIPTS ⚠️</strong><br>
 <strong><sup>IF YOU'D RATHER USE ANOTHER AUR HELPER, YOU'RE GOING TO HAVE TO MODIFY THE HELPER SCRIPT</sup></strong>
 </div>
 
