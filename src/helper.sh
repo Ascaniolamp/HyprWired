@@ -1,5 +1,5 @@
 #!/bin/env bash
-set -euox pipefail
+# set -euox pipefail
 sudo echo
 
 if ! command -v yay &> /dev/null; then
