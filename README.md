@@ -31,12 +31,12 @@ A complete Hyprland configuration for Arch Linux inspired by Serial Experiments 
 <a href=".#Content"><kbd> <br> Content <br> </kbd></a> 
 <a href=".#Credits"><kbd> <br> Credits <br> </kbd></a> 
 <hr>
-<img src="./src/hyprland/cmdwired.gif" width="350">
-<img src="./src/hyprland/background.gif" width="350">
-<img src="./src/gtkqtxdg/qtshowcase.png" width="350">
-<img src="./src/gtkqtxdg/gtkshowcase.png" width="350">
-<img src="./src/sddm/showcase.gif" width="350">
-<img src="./src/dotfiles/firefox.gif" width="350">
+<img src="./src/hyprland/cmdwired.gif" width="400">
+<img src="./src/hyprland/background.gif" width="400">
+<img src="./src/gtkqtxdg/qtshowcase.png" width="400">
+<img src="./src/gtkqtxdg/gtkshowcase.png" width="400">
+<img src="./src/sddm/showcase.gif" width="400">
+<img src="./src/dotfiles/firefox.gif" width="400">
 </div>
 
 ## <div align="center" id="Disclaimer">‼️ 🚨 ⚠️ DISCLAIMER ⚠️ 🚨 ‼️</div>
