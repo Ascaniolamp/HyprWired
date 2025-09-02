@@ -6,7 +6,7 @@ so if you're looking to download only one theme,
 please do so manually by following the script's directories.
 
 # Audacious
-![](./src/dotfiles/audacious.gif)
+![](./audacious.gif)
 
 ## Credits
 This is actually a [winamp skin](https://skins.webamp.org/skin/9b108abe36d37b230909ea49ffc09ed4/lainampborders.zip)
@@ -15,7 +15,7 @@ was made by [MagicalEmi](mailto:MagicalEmi@aol.com)
 and edited by [Lain117](https://reddit.com/user/lain117).
 
 # Firefox
-![](./src/dotfiles/firefox.gif)
+![](./firefox.gif)
 
 I'm sorry, but you'll have to set this one up manually.
 
